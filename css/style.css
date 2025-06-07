@@ -21,3 +21,81 @@ body {
   overflow-y:auto;
   padding-bottom: 20px;
 }
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  line-height: 1.5;
+}
+
+.p2{
+  font-size: 24px;
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*Utilities*/
+
+:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: lightblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/*header*/
+
+.header-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.primary-header {
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/*.header-container {
+  width: 60%;
+}
+
+.header-nav-container {
+  width: 40%;
+}*/
