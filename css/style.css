@@ -14,18 +14,12 @@ body {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  background-color: #f0f0f0;
+  background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y:auto;
   padding-bottom: 20px;
-}
-
-.container {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 p{
@@ -46,6 +40,22 @@ img {
 }
 
 /*Utilities*/
+.btn-details {
+  display: block;
+  padding: 10px;
+  background-color: orange;
+  width: 80%;  
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin:auto;
+  margin-bottom: 10px;
+}
+
+.text-price {
+  color: green;
+  font-weight: bold;
+}
 
 :link {
   color: white;
@@ -67,12 +77,25 @@ a:active {
   color: blue;
 }
 
-/*header*/
+ul li {
+  display:inline-flex;
+  padding: 40px;
+  justify-content: space-evenly;
+}
 
+/*header section*/
 .header-flex {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.header-container {
+  width: 60%;
+}
+
+.header-nav-container {
+  width: 40%;
 }
 
 .primary-header {
@@ -92,10 +115,72 @@ a:active {
   margin-right: 10px;
 }
 
-/*.header-container {
-  width: 60%;
+.h2-header {
+  text-align:left;
+  padding-left: 30px;
+  padding-top: 90px;
+
+}
+/*main section*/
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.header-nav-container {
-  width: 40%;
-}*/
+/*about*/
+.about-container {
+  display:flex;
+  flex-direction: row;
+}
+
+/*house section*/
+.houses-container {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.house-item1 {
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  padding: 5px;
+  align-items: center;
+}
+
+.house-item2 {
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  padding: 5px;
+  align-items: center;
+}
+
+.house-item3 {
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  padding: 5px;
+  align-items: center;
+}
+
+.house-item-text {
+  padding:20px;
+}
+
+.security-container {
+  width: 33%;
+}
+
+.prices-container {
+  width: 33%;
+}
+
+.time-container {
+  width: 33%;
+}
+
