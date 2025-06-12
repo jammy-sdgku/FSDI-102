@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*global*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p{
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.zlink {
+text-decoration: underline;
+}
+
+/*main section*/
+.container {
+  width: 60%;
+  margin: 20px auto;
+}
+
+/*header*/
+.contact-header {
+  background-color: darkgoldenrod;
+  height: 200px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  padding-top: 20px;
+}
+
+.menu a {
+  color: black;
+  margin-right: 20px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+/*form section*/
+.contactForm fieldset {
+    border: 1px solid #0a0909;
+    margin-bottom: 2px;
+}
+
+legend {
+    padding: 0.6em;
+    border: 1px solid black;
+    font-size: 90%;
+}
+
+.contactForm{
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 2%; 
+}
+
+.contactForm div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.formDetails{
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.formProductInfo{
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.formContactInfo{
+  border-radius: 10px;
+  padding: 20px;
+}
+
+label{
+    width:20%;
+}
+
+input{
+  width: 80%;
+  padding: 5px;
+}
+
+textarea{
+  width: 80%;
+  padding: 5px;
+}
+
+input:focus{
+  outline: 1px solid #064247;
+}
+
+/*footer*/
+.footer-container {
+  background-color: lightgray ;
+  height: 100px;
+}
+
+.footer-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.my-flex {
+  display: flex;
+}
+
+.footer-text p:last-of-type {
+  font-weight: bold;
+  border-left: 3px solid black;
+  padding-left: 20px;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.zlink {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer-icons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  width: 20px;
+  margin-right: 10px;
+}

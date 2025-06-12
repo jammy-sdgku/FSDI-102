@@ -52,6 +52,19 @@ img {
   margin-bottom: 10px;
 }
 
+.btn-contact {
+  display: block;
+  padding: 10px;
+  background-color: gray;
+  width: 30%;  
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin:auto;
+  margin-bottom: 10px;
+  
+}
+
 .text-price {
   color: green;
   font-weight: bold;
@@ -99,14 +112,36 @@ ul li {
 }
 
 .primary-header {
-    background-image: url("../img/header.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-    text-align: center;
-    color: white;
-    height: 300px;
+  background-image: url("../img/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  text-align: center;
+  color: white;
+  height: 300px;
+}
+
+.contact-header {
+  background-color: darkgoldenrod;
+  position:relative;
+  text-align: center;
+  color: black;
+  height: 150px;
+}
+
+.contact-header menu a {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.contact-info {
+  text-align: center;
+  padding-bottom: 5px;
+  width: 50%;
+  position:relative;
+  left: 25%;
 }
 
 .menu a {
@@ -184,3 +219,60 @@ ul li {
   width: 33%;
 }
 
+/*form section*/
+.formContainer{
+  width: 70%;
+  height: 10svh;
+  position:relative;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -10%);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+    border: 1px solid #0a0909;
+    margin-bottom: 2px;
+}
+
+legend {
+    padding: 0.6em;
+    border: 1px solid black;
+    font-size: 90%;
+}
+
+#contactForm{
+  width: 100%;
+  margin: auto;
+  background-color: lightgray;
+  border-radius: 2%; 
+}
+
+.formDetails{
+  margin: 01rem;
+  padding: 1rem;
+}
+
+label{
+    display: inline-block;
+    width:150px;
+    text-align: left;
+}
+
+input{
+  width: 60%;
+  padding: .6rem 0;
+  font-size: 1rem;
+}
+
+textarea{
+  width: 60%;
+  padding: .6rem 0;
+  font-size: 1rem;
+}
+
+input:focus{
+  outline: 1px solid #064247;
+}
