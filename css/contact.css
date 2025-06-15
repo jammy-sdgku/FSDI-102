@@ -26,7 +26,7 @@ text-decoration: underline;
 /*main section*/
 .container {
   width: 60%;
-  margin: 20px auto;
+  margin: 1.25em auto;
 }
 
 /*header*/
@@ -39,12 +39,12 @@ text-decoration: underline;
   display: flex;
   justify-content: space-around;
   align-items: center; 
-  padding-top: 20px;
+  padding-top: 1.25em;
 }
 
 .menu a {
   color: black;
-  margin-right: 20px;
+  margin-right: 1.25em;
 }
 
 .contact-info {
@@ -72,22 +72,22 @@ legend {
 .contactForm div {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 
 .formDetails{
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 0.625em;
+  padding: 1.25em;
 }
 
 .formProductInfo{
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 0.625em;
+  padding: 1.25em;
 }
 
 .formContactInfo{
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 0.625em;
+  padding: 1.25em;
 }
 
 label{
@@ -111,14 +111,14 @@ input:focus{
 /*footer*/
 .footer-container {
   background-color: lightgray ;
-  height: 100px;
+  height: 6.25em;
 }
 
 .footer-flex{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 6.25em;
 }
 
 .my-flex {
@@ -128,8 +128,8 @@ input:focus{
 .footer-text p:last-of-type {
   font-weight: bold;
   border-left: 3px solid black;
-  padding-left: 20px;
-  margin-left: 20px;
+  padding-left: 1.25em;
+  margin-left: 1.25em;
   text-decoration: underline;
 }
 
@@ -145,6 +145,42 @@ input:focus{
   border: 1px solid black;
   border-radius: 50%;
   padding: 5px;
-  width: 20px;
-  margin-right: 10px;
+  width: 1.25em;
+  margin-right: 0.625em;
+}
+
+/*tablet View*/
+@media ((min-width:601px) and (max-width:768px)){
+    .container {
+  width: 95%;
+}
+}
+
+/*phone view*/
+@media ((max-width:600px)){
+  .container {
+  width: 95%;
+}
+
+  .contact-header {
+  height: 100px;
+  width: 100%;
+}
+
+  .menu {
+    font-size: 10px;
+  }
+
+  .input {
+    width: 60%;
+    padding: 0.0625em;
+  }
+
+  .formDetails, .formProductInfo {
+    flex-direction: column;
+  }
+
+  .formContactInfo{
+  padding: 0.2em;
+}
 }
