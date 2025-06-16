@@ -19,20 +19,37 @@ a {
   text-decoration: none;
   color: black;
 }
-.zlink {
-text-decoration: underline;
+.title {
+  text-align: center;
 }
 
 /*main section*/
-.container {
-  width: 60%;
+
+.main-flex {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:flex-start;
+  margin: 2.5em;
+  width: 90%;
+}
+
+.blog-container {
+  display: flex;
+  width: 80%;
   margin: 1.25em auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-container h1{
+  text-align: center;
 }
 
 /*header*/
-.contact-header {
+.blog-header {
   background-color: darkgoldenrod;
-  height: 200px;
+  height: 12.5em;
 }
 
 .menu {
@@ -47,140 +64,56 @@ text-decoration: underline;
   margin-right: 1.25em;
 }
 
-.contact-info {
-  text-align: center;
-}
-
-/*form section*/
-.contactForm fieldset {
-    border: 1px solid #0a0909;
-    margin-bottom: 2px;
-}
-
-legend {
-    padding: 0.6em;
-    border: 1px solid black;
-    font-size: 90%;
-}
-
-.contactForm{
-  padding: 20px;
-  background-color: lightgray;
-  border-radius: 2%; 
-}
-
-.contactForm div {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.25em;
-}
-
-.formDetails{
-  border-radius: 0.625em;
+/*blog sections*/
+.blog-info1 {
   padding: 1.25em;
+  position: relative;
 }
 
-.formProductInfo{
-  border-radius: 0.625em;
-  padding: 1.25em;
+.blog-info2 {
+  padding: 1.25em; 
+  position: relative;
 }
 
-.formContactInfo{
-  border-radius: 0.625em;
-  padding: 1.25em;
+.blog-info3 {
+  padding: 1.25em; 
+  position: relative;
 }
 
-label{
-    width:20%;
-}
-
-input{
-  width: 80%;
-  padding: 5px;
-}
-
-textarea{
-  width: 80%;
-  padding: 5px;
-}
-
-input:focus{
-  outline: 1px solid #064247;
-}
-
-/*footer*/
-.footer-container {
-  background-color: lightgray ;
-  height: 6.25em;
-}
-
-.footer-flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 6.25em;
-}
-
-.my-flex {
-  display: flex;
-}
-
-.footer-text p:last-of-type {
-  font-weight: bold;
-  border-left: 3px solid black;
-  padding-left: 1.25em;
-  margin-left: 1.25em;
-  text-decoration: underline;
-}
-
-.zlink {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.footer-icons div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 50%;
-  padding: 5px;
-  width: 1.25em;
-  margin-right: 0.625em;
+.blog-info4 {
+  padding: 1.25em;  
+  position: relative;
 }
 
 /*tablet View*/
 @media ((min-width:601px) and (max-width:768px)){
-    .container {
-  width: 95%;
-}
+  .container {
+    width: 95%;
+  }
+
+  .main-flex {
+    flex-direction: column;
+  }
 }
 
 /*phone view*/
 @media ((max-width:600px)){
-  .container {
-  width: 95%;
-}
+   .main-flex {
+    flex-direction: column;
+    width: 100%;
+    margin: 0.0625em;
+  }
 
-  .contact-header {
-  height: 100px;
-  width: 100%;
-}
+  .blog-header {
+    height: 5em;
+    width: 100%;
+  }
 
   .menu {
-    font-size: 10px;
+    font-size: 0.625em;
   }
 
-  .input {
-    width: 60%;
-    padding: 0.0625em;
+  .blog-info1 img, .blog-info2 img, .blog-info3 img, .blog-info4 img  {
+    width: 100%;
   }
-
-  .formDetails, .formProductInfo {
-    flex-direction: column;
-  }
-
-  .formContactInfo{
-  padding: 0.2em;
-}
 }
