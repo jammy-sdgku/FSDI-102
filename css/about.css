@@ -31,7 +31,7 @@ a {
 /*header*/
 .about-header {
   background-color: darkgoldenrod;
-  height: 200px;
+  height: 12.5em;
 }
 
 .menu {
@@ -78,7 +78,7 @@ a {
   }
 
   .about-header {
-    height: 95px;
+    height: 5.9375em;
     width: 100%;
   }
 }
@@ -94,11 +94,12 @@ a {
   }
 
   .about-header {
-    height: 70px;
+    height: 4.375em;
     width: 100%;
   }
 
   .menu {
-    font-size: 10px;
+    font-size: 0.625em;
   }
 }
+/*end*/

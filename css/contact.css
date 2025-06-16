@@ -32,7 +32,7 @@ text-decoration: underline;
 /*header*/
 .contact-header {
   background-color: darkgoldenrod;
-  height: 200px;
+  height: 12.5em;
 }
 
 .menu {
@@ -53,18 +53,18 @@ text-decoration: underline;
 
 /*form section*/
 .contactForm fieldset {
-    border: 1px solid #0a0909;
-    margin-bottom: 2px;
+    border: 0.0625em solid #0a0909;
+    margin-bottom: 0.125em;
 }
 
 legend {
     padding: 0.6em;
-    border: 1px solid black;
+    border: 0.0625em solid black;
     font-size: 90%;
 }
 
 .contactForm{
-  padding: 20px;
+  padding: 1.25em;
   background-color: lightgray;
   border-radius: 2%; 
 }
@@ -96,16 +96,16 @@ label{
 
 input{
   width: 80%;
-  padding: 5px;
+  padding: 0.3125em;
 }
 
 textarea{
   width: 80%;
-  padding: 5px;
+  padding: 0.3125em;
 }
 
 input:focus{
-  outline: 1px solid #064247;
+  outline: 0.0625em solid #064247;
 }
 
 /*footer*/
@@ -127,7 +127,7 @@ input:focus{
 
 .footer-text p:last-of-type {
   font-weight: bold;
-  border-left: 3px solid black;
+  border-left: 0.1875em solid black;
   padding-left: 1.25em;
   margin-left: 1.25em;
   text-decoration: underline;
@@ -142,9 +142,9 @@ input:focus{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 0.0625em solid black;
   border-radius: 50%;
-  padding: 5px;
+  padding: 0.3125em;
   width: 1.25em;
   margin-right: 0.625em;
 }
@@ -163,12 +163,12 @@ input:focus{
 }
 
   .contact-header {
-  height: 100px;
+  height: 6.25em;
   width: 100%;
 }
 
   .menu {
-    font-size: 10px;
+    font-size: 0.625em;
   }
 
   .input {
@@ -184,3 +184,4 @@ input:focus{
   padding: 0.2em;
 }
 }
+/*end*/

@@ -13,13 +13,13 @@ body {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 1.25em;
   background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y:auto;
-  padding-bottom: 20px;
+  padding-bottom: 1.25em;
 }
 
 p{
@@ -27,7 +27,7 @@ p{
 }
 
 .p2{
-  font-size: 24px;
+  font-size: 1.5em;
   display: inline;
 }
 
@@ -36,37 +36,37 @@ h1 {
 }
 
 h3 {
-  margin: 10px 0px; 
+  margin: 0.625em 0px; 
 }
 
 img {
   max-width: 100%;
-  margin: 10px 0px;
+  margin: 0.625em 0px;
 }
 
 /*Utilities*/
 .btn-details {
   display: block;
-  padding: 10px;
+  padding: 0.625em;
   background-color: orange;
   width: 80%;  
   color: white;
   text-transform: uppercase;
   text-align: center;
   margin:auto;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
 }
 
 .btn-contact {
   display: block;
-  padding: 10px;
+  padding: 0.625em;
   background-color: gray;
   width: 30%;  
   color: white;
   text-transform: uppercase;
   text-align: center;
   margin:auto;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
   
 }
 
@@ -97,7 +97,7 @@ a:active {
 
 ul li {
   display:flex;
-  padding: 30px;
+  padding: 1.875em;
   justify-content: space-evenly;
 }
 
@@ -124,7 +124,7 @@ ul li {
   position:relative;
   text-align: center;
   color: white;
-  height: 300px;
+  height: 18.75em;
 }
 
 .contact-header {
@@ -132,18 +132,18 @@ ul li {
   position:relative;
   text-align: center;
   color: black;
-  height: 150px;
+  height: 9.375em;
 }
 
 .contact-header menu a {
   color: black;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 0.625em;
 }
 
 .contact-info {
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 0.3125em;
   width: 50%;
   position:relative;
   left: 25%;
@@ -152,13 +152,13 @@ ul li {
 .menu a {
   color: white;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 0.625em;
 }
 
 .h2-header {
   text-align:left;
-  padding-left: 30px;
-  padding-top: 90px;
+  padding-left: 1.875em;
+  padding-top: 5.625em;
 
 }
 /*main section*/
@@ -185,8 +185,8 @@ ul li {
   background-color: white;
   border-style: solid;
   border-color: lightgray;
-  border-width: 2px;
-  padding: 5px;
+  border-width: 0.125em;
+  padding: 0.3125em;
   align-items: center;
 }
 
@@ -194,8 +194,8 @@ ul li {
   background-color: white;
   border-style: solid;
   border-color: lightgray;
-  border-width: 2px;
-  padding: 5px;
+  border-width: 0.125em;
+  padding: 0.3125em;
   align-items: center;
 }
 
@@ -203,13 +203,13 @@ ul li {
   background-color: white;
   border-style: solid;
   border-color: lightgray;
-  border-width: 2px;
-  padding: 5px;
+  border-width: 0.125em ;
+  padding:0.3125em;
   align-items: center;
 }
 
 .house-item-text {
-  padding:20px;
+  padding:1.25em;
 }
 
 .security-container {
@@ -238,13 +238,13 @@ ul li {
 }
 
 fieldset {
-    border: 1px solid #0a0909;
-    margin-bottom: 2px;
+    border: 0.0625em solid #0a0909;
+    margin-bottom: 0.125em;
 }
 
 legend {
     padding: 0.6em;
-    border: 1px solid black;
+    border: 0.0625em solid black;
     font-size: 90%;
 }
 
@@ -262,7 +262,7 @@ legend {
 
 label{
     display: inline-block;
-    width:150px;
+    width:9.375em;
     text-align: left;
 }
 
@@ -279,7 +279,7 @@ textarea{
 }
 
 input:focus{
-  outline: 1px solid #064247;
+  outline: 0.0625em solid #064247;
 }
 
 /*tablet View*/
@@ -321,7 +321,7 @@ input:focus{
 
   ul li {
     display: inline-block;
-    padding-left: 70px; 
+    padding-left: 4.375em; 
   }
 }
 
@@ -363,14 +363,15 @@ input:focus{
   }
 
   .h2-header {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
   .header-flex {
-    font-size: 10px;
+    font-size: 0.625em;
   }
 
   ul li {
-  padding: 10px;
+  padding: 0.625em; 
+  }
 }
-}
+/*end*/
