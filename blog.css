@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*global*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p{
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.title {
+  text-align: center;
+}
+
+/*main section*/
+
+.main-flex {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:flex-start;
+  margin: 2.5em;
+  width: 90%;
+}
+
+.blog-container {
+  display: flex;
+  width: 80%;
+  margin: 1.25em auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-container h1{
+  text-align: center;
+}
+
+/*header*/
+.blog-header {
+  background-color: darkgoldenrod;
+  height: 12.5em;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  padding-top: 1.25em;
+}
+
+.menu a {
+  color: black;
+  margin-right: 1.25em;
+}
+
+/*blog sections*/
+.blog-info1 {
+  padding: 1.25em;
+  position: relative;
+}
+
+.blog-info2 {
+  padding: 1.25em; 
+  position: relative;
+}
+
+.blog-info3 {
+  padding: 1.25em; 
+  position: relative;
+}
+
+.blog-info4 {
+  padding: 1.25em;  
+  position: relative;
+}
+
+/*tablet View*/
+@media ((min-width:601px) and (max-width:768px)){
+  .container {
+    width: 95%;
+  }
+
+  .main-flex {
+    flex-direction: column;
+  }
+}
+
+/*phone view*/
+@media ((max-width:600px)){
+   .main-flex {
+    flex-direction: column;
+    width: 100%;
+    margin: 0.0625em;
+  }
+
+  .blog-header {
+    height: 5em;
+    width: 100%;
+  }
+
+  .menu {
+    font-size: 0.625em;
+  }
+
+  .blog-info1 img, .blog-info2 img, .blog-info3 img, .blog-info4 img  {
+    width: 100%;
+  }
+}
+/*end*/
